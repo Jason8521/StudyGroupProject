@@ -42,14 +42,15 @@
 
 * **실행 흐름**: `UI (Console)` → `Service` → `DAO` → `DB` → `Service` → `Main (Output)`
 
+
 src
-├── dao                     // 데이터베이스 접근 로직
-├── exception               // 예외 처리 클래스
-├── main                    // 프로그램 시작점
-├── service                 // 비즈니스 로직
-├── ui                      // 사용자 인터페이스
-├── util                    // DB 연결 등 유틸리티
-└── vo                      // 데이터 전송 객체
+├── dao         // 데이터베이스 접근 로직
+├── exception   // 예외 처리 클래스
+├── main        // 프로그램 시작점
+├── service     // 비즈니스 로직
+├── ui          // 사용자 인터페이스
+├── util        // DB 연결 등 유틸리티
+└── vo          // 데이터 전송 객체
 
 ***
 
