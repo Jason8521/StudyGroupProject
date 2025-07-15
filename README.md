@@ -42,7 +42,7 @@
 
 * **실행 흐름**: `UI (Console)` → `Service` → `DAO` → `DB` → `Service` → `Main (Output)`
 
-'''java
+```java
 src
 ├── dao         // 데이터베이스 접근 로직
 ├── exception   // 예외 처리 클래스
