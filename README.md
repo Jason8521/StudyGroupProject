@@ -42,7 +42,7 @@
 
 * **실행 흐름**: `UI (Console)` → `Service` → `DAO` → `DB` → `Service` → `Main (Output)`
 
-
+'''java
 src
 ├── dao         // 데이터베이스 접근 로직
 ├── exception   // 예외 처리 클래스
@@ -61,7 +61,6 @@ src
 * **STUDYGROUP.MEMBER**: 회원 정보(관리자 포함) 관리 테이블 
 * **STUDYGROUP.STUDY\_GROUP**: 스터디 그룹 모집 게시글 정보 관리 테이블 
 * **STUDYGROUP.STUDY\_GROUP\_COMMENT**: 게시글 댓글 정보 관리 테이블 
-    * *참고: 해당 테이블은 설계되었으나, 댓글 기능은 아직 구현되지 않았습니다.*
 
 ***
 
